@@ -1,8 +1,16 @@
 public class Square {
 
-    public double a;
+    private double a;
 
     public Square(double a) {
+        this.a = a;
+    }
+
+    public double getA() {
+        return a;
+    }
+
+    public void setA(double a) {
         this.a = a;
     }
 }
